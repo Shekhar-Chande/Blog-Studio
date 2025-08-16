@@ -3,7 +3,7 @@ const registeredUsers = require("../models/userSchema")
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
-const SECRET_KEY ="ChanderShekharBhardwaj"
+const SECRET_KEY = process.env.SECRET_KEY
 
 
 exports.signupUser = async(req, res) =>{
