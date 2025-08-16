@@ -1,0 +1,55 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 179, 179);
+}
+
+.banner{
+    display: flex;
+    width: 1400px;
+    height: 500px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-image img{
+    width: 600px;
+    height: 400px;
+    
+ }
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .banner-content p{
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.tag{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(235, 103, 9);
+    font-weight: bold;
+}
+
+.banner-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(235, 121, 40);
+}
+.banner-bottom p{
+    font-size: 30px;
+    color: rgb(228, 219, 219);
+    font-family:cursive;
+    font-weight: bold   ;
+}

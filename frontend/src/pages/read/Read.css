@@ -1,0 +1,39 @@
+.read-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read-main-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.description p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.author img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
